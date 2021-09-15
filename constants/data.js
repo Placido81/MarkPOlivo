@@ -106,7 +106,7 @@ const userData = {
   resumeUrl:
     "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
   socialLinks: {
-    instagram: "https://instagram.com/maninthere",
+    
     twitter: "https://twitter.com/MarkOlivo7",
     linkedin: "https://linkedin.com/in/markolivo-7070",
     github: "https://github.com/Placido81",
