@@ -19,3 +19,36 @@ a {
 * {
   box-sizing: border-box;
 }
+#aboutMe{
+  position: relative;
+  bottom: 5%;
+  background: linear-gradient(to right, rgb(233, 10, 10) 20%, rgb(175, 233, 16) 40%, rgb(250, 250, 23) 60%, rgb(253, 70, 15) 80%);
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: shine 1s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+}
+}
+#proj{
+  position: relative;
+  top: 1.2em;
+  text-shadow: 5px 2px 2px blue;
+background: linear-gradient(to right, rgb(233, 10, 10) 20%, rgb(175, 233, 16) 40%, rgb(250, 250, 23) 60%, rgb(253, 70, 15) 80%);
+background-clip: text;
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+animation: shine 1s linear infinite;
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+}

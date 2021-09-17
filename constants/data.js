@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "Placido81",
   name: "Mark P. Olivo",
   designation: "Full-Stack Developer",
-  avatarUrl: "/avatar.png",
+  RedSelfUrl: "/RedSelf.png",
   email: "Markyo81@gmail.com",
   phone: "1(401)263-0305",
   address: "Providence, Rhode Island, USA.",

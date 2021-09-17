@@ -5,11 +5,11 @@ export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="h-48 max-w-6xl mx-auto bg-white dark:bg-gray-800">
-        <h1 className="py-20 text-5xl font-bold text-center  md:text-9xl md:text-left">
+        <h1 className="py-10 text-5xl font-bold text-center transform skew-x-12 -rotate-5 -p-20 md:text-9xl md:text-left" id="aboutMe">
           About Me.
         </h1>
       </div>
-      <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
+      <div className="bg-[#F1F1F1] -mt-16 dark:bg-gray-900">
         <div className="max-w-6xl pt-20 mx-auto text-container">
           <p
             className="mx-4 text-2xl font-semibold leading-loose md:text-4xl"
