@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export default function FavouriteProjects() {
   return (
-    <div className="bg-[#90dcff] -mt-40 dark:bg-[#010A26]">
+    <div className="bg-[#1B8EF2] -mt-40 dark:bg-[#010A26]">
       <div className="max-w-6xl mx-auto">
         <header className="flex flex-col items-center justify-between pt-40 mx-10 md:flex-row md:my-20 lg:my-0">
-          <h1 className="max-w-lg my-20 text-6xl font-bold text-center text-transparent text-gray-500 lg:text-9xl md:my-0 md:text-white dark:text-gray-600 ">
+          <h1 className="max-w-lg pb-4 my-20 text-6xl font-bold text-center text-transparent transform skew-x-12 skew-y-10 lg:text-9xl md:my-0 md:text-white" id="favProjects">
             Favorite Projects
           </h1>
           <Link href="/work">
@@ -16,9 +16,9 @@ export default function FavouriteProjects() {
                 width="16"
                 height="16"
                 fill="currentColor"
-                className="bi bi-arrow-up-right-square"
+                className="text-red-700 bi bi-arrow-up-right-square"
                 stroke="4"
-                strokeWidth="4"
+                strokeWidth="6"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -26,7 +26,7 @@ export default function FavouriteProjects() {
                   d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"
                 />
               </svg>
-              <p>View all</p>
+              <p className="text-red-700 underline" >View all</p>
             </a>
           </Link>
         </header>

@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 
+
 export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
@@ -23,11 +24,11 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://yourwebsite.com${router.asPath}`}
+          content={`https://my-portfolio-placido81.vercel.app/${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`https://yourwebsite.com${router.asPath}`}
+          href={`https://my-portfolio-placido81.vercel.app/${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="my-portfolio" />
@@ -46,6 +47,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
       <main className="w-full dark:bg-gray-800">
         <Navbar />
         <div>{children}</div>
+        
         <Footer />
       </main>
     </div>

@@ -3,9 +3,9 @@ import userData from "@constants/data";
 
 export default function Projects() {
   return (
-    <section className="bg-white dark:bg-gray-800">
-      <div className="h-48 max-w-6xl mx-auto bg-white dark:bg-gray-800">
-        <h1 className="text-5xl font-bold text-center transform skew-x-12 skew-y-12 px-30 py-42 md:text-9xl md:text-left" id="proj">
+    <section className="bg-[#1B8EF2] dark:bg-gray-700" id="proj-section">
+      <div className="h-48 max-w-6xl mx-auto bg-[#1B8EF2] dark:bg-gray-700">
+        <h1 className="px-20 text-5xl font-bold text-center transform skew-y-10 md:text-9xl md:text-left " id="proj">
           Projects
         </h1>
       </div>
