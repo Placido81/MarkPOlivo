@@ -10,7 +10,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Mark P. Olivo- Developer, Writer, Creator and YouTuber",
+    title: "Mark P. Olivo- Developer, Writer, Creator and Team Player",
     description: `I've been developing websites for 3 years straight. Get in touch with me to know more.`,
     image: "/me.png",
     type: "website",
@@ -24,11 +24,11 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://my-portfolio-placido81.vercel.app${router.asPath}`}
+          content={`https://my-portfolio.vercel.app${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`https://my-portfolio-placido81.vercel.app${router.asPath}`}
+          href={`https://my-portfolio.vercel.app${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="my-portfolio" />

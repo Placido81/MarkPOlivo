@@ -43,7 +43,7 @@ const userData = {
       imgUrl: "/feedmeback.png",
     },
     {
-      title: "Devmedium",
+      title: "Redux Timer",
       link: "https://devmedium.vercel.app",
       imgUrl: "/devmedium.png",
     },
@@ -61,54 +61,53 @@ const userData = {
   },
   experience: [
     {
-      title: "Software Developer",
-      company: "mroads",
-      year: "2021",
-      companyLink: "https://mroads.com",
-      desc: "Contributed to our flagship product - Panna - which is an AI powered candidate interviewing product.",
+      title: "Freelance Consultant",
+      company: "McDonald's",
+      year: "2021 3months",
+     jobType: "Contract",
+      desc: " Built a “pixel-perfect” parallax, single-page website with infinite scrolling using React, Node and Javascript. ",
     },
     {
-      title: "Founder and Developer",
-      company: "TailwindMasterKit",
-      year: "2021",
-      companyLink: "https://tailwindmasterkit.com",
-      desc: "Developed a marketplace for tailwind web components (React, HTML and Angular) and templates.",
+      title: "Javascript Developer",
+      company: "Cypress ",
+      year: "2021 4months",
+     jobType: "Contract",
+      desc: " Develop and optimize high performance desktop & mobile. Work closely with other engineers and product management teams to meet fixed deadlines, Work with our internal and external partners to develop, debug and deploy video delivery applications", 
+      
+      
     },
     {
-      title: "Founder and Developer",
-      company: "Algochurn",
-      year: "2021",
-      companyLink: "https://algochurn.com",
-      desc: "Your last moment revision friend right before a Tech coding interview. Practice problems and get hired at top Product based companies.",
+      title: "Javascript Developer",
+      company: "G2i inc.",
+      year: "2020 7months",
+     jobType: "Contract",
+      desc: " Front-end developer A SuiteScript developer is responsible for writing server-side web application logic in JavaScript,Work with the Quality Assurance Team to validate changes",
     },
     {
-      title: "Internship",
-      company: "Intel Corporation",
-      year: "2019",
-      companyLink: "https://intel.com",
-      desc: "Developed pothole detection system with OpenCV and computer vision, detects potholes on roads and informs the driver.",
+      title: "FullStack Developer",
+      company: "Fast",
+      year: "2020 5months.",
+      jobType: "Contract",
+      desc: "Develop software to make buying online faster, safer and easier for everyone. Fast Login and Fast Checkout enable a one-click sign-in and purchasing experience that makes it easier for people to buy and merchants to sell. The company’s products work on any browser, device or platform to deliver a consistent, stress-free purchasing experience. Fast is entirely consumer-focused and invests heavily in its users’ privacy and data security.",
     },
     {
-      title: "Graduation",
-      company: "UPES, Dehradun.",
-      year: "2019",
-      companyLink: "https://upes.co.in",
-      desc: "Major in Computer Science and Engineering with a CGPA of 7.0. Nobody asks this but it's okay.",
+      title: "Junior FullStack Developer",
+      company: "Contra",
+      year: "2018-2020",
+      jobType: "Contract",
+      desc: "Collaborate with your team to deeply understand the needs of our users and clients and then plan, design, and build features that best serve those needs Take ownership of the work you do on projects from strategy to design to implementation to deployment and maintenance Be an impactful contributor to your team, discipline, and company, participating in our culture and helping us improve and push our internal tools, libraries, workflows, and standards forward. Design and build features that are performant, accessible, and steeped in the best practices of modern frontend development standards and patterns"
+      
+      
     },
-    {
-      title: "High School",
-      company: "Delhi Public School, Jaipur.",
-      year: "2015",
-      companyLink: "https://upes.co.in",
-      desc: "Subjects being PCM - I barely survived with 93.6% marks aggregate. Flex fridays, fellas.",
-    },
+    
+    
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
+    "https://drive.google.com/file/d/1c_YVXskd-qTUhsv7iOqrva2FYE1SKklP/view?usp=sharing",
   socialLinks: {
     
     twitter: "https://twitter.com/MarkOlivo7",
-    linkedin: "https://linkedin.com/in/markolivo-7070",
+    linkedin: "https://linkedin.com/in/markolivo81",
     github: "https://github.com/Placido81",
     facebook: "https://facebook.com/",
   },
