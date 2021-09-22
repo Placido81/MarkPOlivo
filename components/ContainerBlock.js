@@ -24,14 +24,14 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`http://my-portfolio-sand-eta.vercel.app/${router.asPath}`}
+          content={`https://www.markpolivo.com/${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`https://markpolivo.vercel.app${router.asPath}`}
+          href={`https://www.markpolivo.com/${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="my-portfolio" />
+        <meta property="og:site_name" content="markpolivo" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
