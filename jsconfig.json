@@ -1,10 +1,7 @@
 {
     "compilerOptions": {
       "baseUrl": ".",
-      "sourceRoot": "",
-        "target": "es6",
       "paths": {
-       
         "@components/*": ["components/*"],
         "@data/*": ["data/*"],
         "@utils/*": ["utils/*"],
