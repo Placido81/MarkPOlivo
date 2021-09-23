@@ -78,7 +78,7 @@ const userData = {
     },
     {
       title: "Javascript Developer",
-      company: "G2i inc.",
+      company: "G2i",
       year: "2020 7months",
      jobType: "Contract",
       desc: " Front-end developer A SuiteScript developer is responsible for writing server-side web application logic in JavaScript,Work with the Quality Assurance Team to validate changes",
@@ -103,7 +103,7 @@ const userData = {
     
   ],
   resumeUrl:
-    "https://docs.google.com/document/d/e/2PACX-1vRLqDRyd_PLfb5NsP8O_W_ZllcdBHVxL10hjT-hmgabFTnicmDT6LfeP9Ij1DyZmFpvP0TGkZNEbt7b/pub",
+    "https://drive.google.com/file/d/1DwSpQ_gpHkPqH8Lzy3pCJqa1Fzgc525Z/view?usp=sharing",
   socialLinks: {
     
     twitter: "https://twitter.com/MarkOlivo7",
