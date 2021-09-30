@@ -31,17 +31,17 @@ export default function AboutMe() {
           <div className="inline-flex flex-col">
             <div>
               <h1 className="text-xl font-semibold text-gray-700 underline dark:text-gray-200">
-                Contact
+                Contact Me
               </h1>
               <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">
-                For any sort help / enquiry, shoot a
+                For any Reason you have some questions please Ask Me
                 <a
                   href={`mailto:${userData.email}`}
                   className="font-bold text-red-600 border-b-2 border-red-600 dark:border-gray-300 dark:text-gray-300"
                 >
                   mail
                 </a>
-                and I'll get back. I swear.
+                and I'll get back to you imediately 
               </p>
             </div>
             <div className="mt-8">
@@ -58,7 +58,7 @@ export default function AboutMe() {
                 >
                   CV
                 </a>
-                and I'd love to work for you.
+                and I'd love to create Great tings with your company.
               </p>
             </div>
             {/* Social Links */}

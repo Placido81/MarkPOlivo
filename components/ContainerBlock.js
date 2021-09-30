@@ -11,7 +11,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
 
   const meta = {
     title: "Mark P. Olivo- Developer, Writer, Creator and Team Player",
-    description: `I've been developing websites for 3 years straight. Get in touch with me to know more.`,
+    description: `Strive to build things that makes a difference in the world! Get in touch with me to know more.`,
     image: "/me.png",
     type: "website",
     ...customMeta,
