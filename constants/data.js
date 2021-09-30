@@ -53,11 +53,11 @@ const userData = {
       "I'm a software developer that loves building products and web applications that impact millions of lives",
     description: [
       `I have a wide-range of technical skills, superior capacity to tackle time-sensitive projects,<b className="blue"> and proven ability to deliver best-in class customer service, I am confident that I will exceed your expectations from my first day on the job.`,
-      `Possess solid knowledge of designing user interactions on web pages, determining the structure of web pages by using HTML, CSS, and JavaScript, and resolving technical errors. Applications Designing Development | Applications Performance Testing
+      `Posseses solid knowledge of designing user interactions on web pages, determining the structure of web pages by using HTML, CSS, and JavaScript, and resolving technical errors. Applications Designing Development | Applications Performance Testing
       Bugs | Technical Troubleshooting | Web User Interfaces | Backlog Creation
       UX Strategy | Process Management | Key Relationship Development
       Customer Service and Satisfaction	| Quality Control and Assurance`
-      `Well-developed ability to design and develop state-of-the-art software by transforming unique client requirements into high-quality applications with maximum functionality, reliability, and scalability &nbsp;
+      `Well-developed ability to design and develop state-of-the-art software by transforming unique client requirements into high-quality applications with maximum functionality, reliability, and scalability.
       Team-friendly collaborator with keen understanding of responsive design principles combined with a knack to optimize components for maximum performance across a vast array of devices and browsers. `
       ` I also use CSS3, Gatsby, Tailwind, PostCSS, SASS to style my User Interfaces.`
     ],

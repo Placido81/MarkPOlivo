@@ -82,6 +82,9 @@ background-clip: text;
 -webkit-background-clip: text;
 color: transparent;
 }
+#experience-container{
+  border-top: 8px ridge  #ffea00;
+}
 #expiernce{
   color:#f8f9fa;
   text-shadow: 5px 4px 1px  red;
