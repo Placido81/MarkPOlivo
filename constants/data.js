@@ -52,17 +52,21 @@ const userData = {
     title:
       "I'm a software developer that loves building products and web applications that impact millions of lives",
     description: [
-      `I have a wide-range of technical skills, superior capacity to tackle time-sensitive projects,<b className="blue"> and proven ability to deliver best-in class customer service, I am confident that I will exceed your expectations from my first day on the job.`,
-      `Posseses solid knowledge of designing user interactions on web pages, determining the structure of web pages by using HTML, CSS, and JavaScript, and resolving technical errors. Applications Designing Development | Applications Performance Testing
+      `📍 I am technically-sophisticated professional Associates Degree in Advanced Full Stack Web Development from Bryan University. I possess broad knowledge of designing and delivering forward-thinking user interface programmes along abilities to support the assembly, deployment, installation, and maintenance of hardware and software. I am highly-creative, visionary, and thoughtful person, I have strong aptitude to handle various projects simultaneously and complete them by given deadline.`,
+      `📍 I have a solid foundation of designing user interactions on web pages, determining the structure of web pages by using HTML, CSS, and JavaScript, and resolving technical errors. Applications Designing Development | Applications Performance Testing
       Bugs | Technical Troubleshooting | Web User Interfaces | Backlog Creation
       UX Strategy | Process Management | Key Relationship Development
-      Customer Service and Satisfaction	| Quality Control and Assurance`
-      `Well-developed ability to design and develop state-of-the-art software by transforming unique client requirements into high-quality applications with maximum functionality, reliability, and scalability.
-      Team-friendly collaborator with keen understanding of responsive design principles combined with a knack to optimize components for maximum performance across a vast array of devices and browsers. `
-      ` I also use CSS3, Gatsby, Tailwind, PostCSS, SASS to style my User Interfaces.`
+      Customer Service and Satisfaction	| Quality Control and Assurance.
+      Team playaer with keen understanding of responsive design principles combined with a knack to optimize components for maximum performance across a vast array of devices and browsers. 
+       I also use CSS3, Gatsby, Tailwind, PostCSS, SASS to style my User Interface📍 I am highly effective at gathering and communicating highly-technical requirements to cross-disciplinary teams and creating product backlog. I have excellent customer service skills along with ability to design and reflect back the desired outcomes aligned with actionable solutions.  am technically proficient in diversified tools, systems, and programming languages, such as📍HTML5, JavaScript, Node.js, React.js, Express.js, CSS3, DOM, Ajax, APO's, HTTP, Python, JSON, Redux, MongoDB, MySQL, PostgreSQL, Microsoft Office Suite (Word, Excel, Outlook, Access).`,
+                                   
+                                       `Following Are Some Of The Highlights Of My Career.`,
+                                  ` 👉 Proactive individual with capabilities of developing full-stack web applications, using agile methodologies and multiple frontend frameworks and studying information needs, system flow, and work processes.`,
+                                  ` 👉  Talented in transforming product requirements into technical specifications while remaining keenly aware of industry-wide technology trends and best practices.`,
+                                   `👉 Proficient troubleshooter; capable of utilizing multiple diagnostic techniques to identify, isolate, and technical issues to generate optimum outcomes.`,
+                                   `📍 I am excellent at communication, interpersonal, and multitasking skills; able to work autonomously and in conjunction with team coupled with a knack to build enduring relationships with clients. While others take pride in meeting all standards set before them, my passion is for delivering service that goes beyond organizational expectations, creating a win-win scenario for everyone involved!`
     ],
-    currentProject: "Tailwind Master Kit",
-    currentProjectUrl: "https://tailwindmasterkit.com",
+    
   },
   experience: [
     {

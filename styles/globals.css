@@ -26,13 +26,16 @@ a {
   --color-4: #1B8EF2;
   --color-5: #f9002f;
 }
-
+#heroMain-container{
+  border-top: 8px ridge  #ffea00;
+}
 #aboutMe{
   position: relative;
   bottom: 5%;
   color:#f8f9fa;
   text-shadow: 5px 4px 1px  red;
 }
+
 #proj-section{
   border-top: 8px ridge  #ffea00;
 }
@@ -54,6 +57,13 @@ a {
  left: 0.5em;
  color:#e9ecef;
  text-shadow: 6px 3px 0 red;
+}
+#getInTouch{
+  background-image: linear-gradient(to left, violet, indigo, green, white, yellow, orange, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 #favProjects:hover{
   letter-spacing: 3px;
@@ -82,9 +92,18 @@ background-clip: text;
 -webkit-background-clip: text;
 color: transparent;
 }
+/* EXPEREIENCE */
+
+#year{
+  background: -webkit-linear-gradient(#f9002f 40%, #ffea00 60%, #1B8EF2 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.3;
+}
 #experience-container{
   border-top: 8px ridge  #ffea00;
 }
+
 #expiernce{
   color:#f8f9fa;
   text-shadow: 5px 4px 1px  red;
@@ -119,5 +138,15 @@ color: transparent;
   text-shadow: 3px 2px 0 white;
   color:orange;
 }
-/* FAVORITE PROJECTS */
+/* FOOTER */
+#copywright{
+  position: relative;
+  top: 1.3em;
+  right: 1.0em;
+}
+#heart{
+  position: relative;
+  right: 1.0em;
+  bottom: 1.0em;
+}
 

@@ -6,7 +6,7 @@ import userData from "@constants/data";
 export default function Hero() {
   const colors = ["#F20530", "#F2E205", "#10B981", "#0476D9"];
   return (
-    <div className="flex flex-row items-start justify-center overflow-hidden">
+    <div className="flex flex-row items-start justify-center overflow-hidden" id="heroMain-container">
       {/* Text container */}
 
       <div className="w-full mx-auto text-center md:w-1/2 md:text-left lg:p-20">
@@ -38,23 +38,16 @@ export default function Hero() {
         <div className="w-3/4">
           <img src={userData.RedSelfUrl} alt="me" className="transform shadow-lg md:skew-y-6 scale-80 sm:transformgpu md:rounded-t-lg ring-4 ring-yellow-200 inset-10 md:scale-75 md:drop-shadow-xl" />
           <div className="flex flex-row mt-2">
-            <div className="flex flex-row space-x-7">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                className="mx-5 text-yellow-300 mb-13 my- bi bi-arrow-90deg-up "
-                viewBox="0 0 16 16"
-              >
-                <path
-                className="flex flex-row space-x-1"
-                  fillRule="even"
-                  d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"
-                />
-              </svg>
-              <p className="font-mono text-yellow-300 underline animate-bounce">That's me</p>
+        
+          <RoughNotation type="underline" show={true} color="white" animationDuration={30}  iterations={5}  multiline={true}
+          padding={[0, 2]}>
+            <div className="flex flex-row space-x-9">
+             
+               
+              <p className="font-mono text-yellow-300 ">That's me</p>
             </div>
+            </RoughNotation>
+        
           </div>
         </div>
       </div>

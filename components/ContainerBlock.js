@@ -3,6 +3,8 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+
 
 
 
@@ -18,17 +20,18 @@ export default function ContainerBlock({ children, ...customMeta }) {
   };
   return (
     <div>
+   
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`${router.asPath}`}
+          content={`https://www.markpolivo.vercelapp.com${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`${router.asPath}`}
+          href={`https://www.markpolivo.vercelapp.com/${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="markpolivo" />
@@ -47,7 +50,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
       <main className="w-full dark:bg-gray-800">
         <Navbar />
         <div>{children}</div>
-        
+        <RoughNotation />
         <Footer />
       </main>
     </div>

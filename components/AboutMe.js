@@ -1,5 +1,7 @@
 import React from "react";
 import userData from "constants/data";
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+
 
 export default function AboutMe() {
   return (
@@ -9,35 +11,38 @@ export default function AboutMe() {
           About Me.
         </h1>
       </div>
+      
       <div className="bg-[#F1F1F1] -mt-16 dark:bg-gray-900">
         <div className="max-w-6xl pt-20 mx-auto text-container">
+       
           <p
             className="mx-4 text-2xl font-semibold leading-loose md:text-4xl"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}. Currently working on{" "}
-            <a
-              className="px-2 py-1 text-white bg-red-500 rounded-md"
-              href={userData.about.currentProjectUrl}
-            >
-              {userData.about.currentProject} ✈️
-            </a>
+         
+          <RoughNotation type="highlight" className="bg-red-500 text-gray-50" >
+            {userData.about.title} Think It Design It Build It!
+            </RoughNotation>
+          
           </p>
+          
         </div>
       </div>
+      
+        
       <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
         <div className="grid max-w-6xl grid-cols-1 pt-20 mx-auto md:grid-cols-3 gap-y-20 gap-x-20">
           {/* Social Buttons */}
           <div className="inline-flex flex-col">
             <div>
-              <h1 className="text-xl font-semibold text-gray-700 underline dark:text-gray-200">
+              <h1 className="text-xl font-semibold text-gray-700 underline dark:text-yellow-300" >
                 Contact Me
               </h1>
-              <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">
-                For any Reason you have some questions please Ask Me
+              <p className="mt-4 text-lg text-gray-500 dark:text-gray-300 ">
+                For any Reason you have some questions Please Ask Me
                 <a
                   href={`mailto:${userData.email}`}
-                  className="font-bold text-red-600 border-b-2 border-red-600 dark:border-gray-300 dark:text-gray-300"
+                  className="font-bold text-red-600 border-b-2 border-red-600 dark:border-gray-300 dark:text-yellow-300"
                 >
                   mail
                 </a>
@@ -45,7 +50,7 @@ export default function AboutMe() {
               </p>
             </div>
             <div className="mt-8">
-              <h1 className="text-xl font-semibold text-gray-700 underline dark:text-gray-200">
+              <h1 className="text-xl font-semibold text-gray-700 underline dark:text-yellow-300">
                 Job Opportunities
               </h1>
               <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">
@@ -54,15 +59,15 @@ export default function AboutMe() {
                 <a
                   href={userData.resumeUrl}
                   target="__blank"
-                  className="font-bold text-red-600 border-b-2 border-red-600 dark:border-gray-300 dark:text-gray-300"
+                  className="font-bold text-red-600 border-b-2 border-red-600 dark:border-gray-300 dark:text-yellow-300"
                 >
                   CV
                 </a>
-                and I'd love to create Great tings with your company.
+                and I'd love to Create Great things with your company.
               </p>
             </div>
             {/* Social Links */}
-            <h1 className="mt-8 text-xl font-semibold text-gray-700 underline dark:text-gray-200">
+            <h1 className="mt-8 text-xl font-semibold text-gray-700 underline dark:text-yellow-300">
               Social Links
             </h1>
             <div className="mt-4 ml-4">
@@ -85,7 +90,7 @@ export default function AboutMe() {
                 >
                   <div className="my-4">&rarr; </div>
                   <p className="relative overflow-hidden font-mono text-lg text-gray-500 dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-red-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                    <div className="absolute h-0.5 w-full bg-red-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300 hover:text-blue-400"></div>
                     Twitter
                    
                   </p>
@@ -138,41 +143,41 @@ export default function AboutMe() {
               </p>
             ))}
 
-            <h1 className="inline-block px-2 py-1 text-3xl font-bold bg-red-500 rounded-md text-gray-50">
+            <h1 className="inline-block px-2 py-1 text-3xl font-bold transform bg-red-500 rounded-md text-gray-50">
               Tech Stack
             </h1>
-            <div className="flex flex-row flex-wrap mt-8">
+            <div className="flex flex-row flex-wrap mt-8 transition duration-500 ease-in-out delay-300">
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-                className="w-20 h-20 mx-4 my-4"
+                className="w-20 h-20 mx-4 my-4 animate-pulse"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
-                className="w-20 h-20 mx-4 my-4"
+                className="w-20 h-20 mx-4 my-4 animate-pulse"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                className="w-20 h-20 mx-4 my-4"
+                className="w-20 h-20 mx-4 my-4 animate-pulse"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
-                className="w-20 h-20 mx-4 my-4"
+                className="w-20 h-20 mx-4 my-4 animate-pulse"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
-                className="w-20 h-20 mx-4 my-4"
+                className="w-20 h-20 mx-4 my-4 animate-pulse"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
-                className="w-20 h-20 mx-4 my-4"
+                className="w-20 h-20 mx-4 my-4 animate-pulse"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
-                className="w-20 h-20 mx-4 my-4"
+                className="w-20 h-20 mx-4 my-4 animate-pulse"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
-                className="w-20 h-20 mx-4 my-4"
+                className="w-20 h-20 mx-4 my-4 animate-pulse"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"

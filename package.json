@@ -10,15 +10,16 @@
   "dependencies": {
     "axios": "^0.21.1",
     "bootstrap-icons": "^1.5.0",
-    "firebase": "^9.1.0",
     "github-calendar": "^2.2.7",
     "next": "^11.1.2",
     "next-themes": "0.0.15",
     "nodemon": "^2.0.12",
     "react": "17.x",
     "react-dom": "17.x",
+    "react-icons": "^4.3.0",
     "react-rough-notation": "^1.0.1",
-    "react-router-dom": "^5.3.0"
+    "react-router-dom": "^5.3.0",
+    "vercel": "^23.1.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.1",
