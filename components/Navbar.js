@@ -4,7 +4,7 @@ import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import userData from "@constants/data";
 import { RoughNotation } from "react-rough-notation";
-import { GrHomeRounded } from "react-icons/gr";
+
 
 export default function Navbar() {
   const router = useRouter();
@@ -18,19 +18,25 @@ export default function Navbar() {
 
   return (
     <div className="max-w-6xl px-4 py-10 mx-auto md:py-20">
-    <GrHomeRounded />
+   
       <div className="flex items-center justify-between md:flex-row">
         {/* Logo / Home / Text */}
         <RoughNotation type="circle" animationDuration={30}  iterations={4} show={true}  color="#f9002f" padding={[50, 32]}>
 
         <div className="flex flex-col">
           <Link href="/">
+          
             <a>
+            <div className="px-3 mx-12 mb-5 border-red-500 rounded">
+            <svg width="30" height="30" viewBox="0 0 15 15" fill="red" xmlns="http://www.w3.org/2000/svg"><path d="M7.07926 0.222253C7.31275 -0.007434 7.6873 -0.007434 7.92079 0.222253L14.6708 6.86227C14.907 7.09465 14.9101 7.47453 14.6778 7.71076C14.4454 7.947 14.0655 7.95012 13.8293 7.71773L13 6.90201V12.5C13 12.7761 12.7762 13 12.5 13H2.50002C2.22388 13 2.00002 12.7761 2.00002 12.5V6.90201L1.17079 7.71773C0.934558 7.95012 0.554672 7.947 0.32229 7.71076C0.0899079 7.47453 0.0930283 7.09465 0.32926 6.86227L7.07926 0.222253ZM7.50002 1.49163L12 5.91831V12H10V8.49999C10 8.22385 9.77617 7.99999 9.50002 7.99999H6.50002C6.22388 7.99999 6.00002 8.22385 6.00002 8.49999V12H3.00002V5.91831L7.50002 1.49163ZM7.00002 12H9.00002V8.99999H7.00002V12Z" fill="red" fill-rule="evenodd" clip-rule="evenodd"></path>
+          </svg>
+          </div>
               <h1 className="text-xl font-semibold dark:text-yellow-200 hover:underline">
+             
              
                 {userData.name}
               </h1>
-              <p className="text-base font-light text-gray-500 dark:text-blue-500 hover:underline hover:text-blue-800">
+              <p className="text-base font-light text-gray-600 dark:text-blue-400 hover:underline hover:text-blue-500">
                 {userData.designation}
               </p>
             </a>
@@ -53,8 +59,8 @@ export default function Navbar() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="17"
                   height="17"
-                  fill="yellow"
-                  className="inline-block w-3 h-3 bi bi-arrow-down "
+                  fill="currentColor"
+                  className="inline-block w-3 h-3 text-red-700 bi bi-arrow-down dark:text-yellow-400 "
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -79,8 +85,8 @@ export default function Navbar() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="17"
                   height="17"
-                  fill="yellow"
-                  className="inline-block w-3 h-3 bi bi-arrow-down"
+                  fill="currentColor"
+                  className="inline-block w-3 h-3 text-red-700 bi bi-arrow-down dark:text-yellow-400"
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -95,7 +101,7 @@ export default function Navbar() {
             <a
               className={`text-base  ${
                 router.asPath === "/experience"
-                  ? "text-gray-300 font-bold dark:text-gray-400"
+                  ? "text-gray-500 font-bold dark:text-gray-300"
                   : "text-gray-600 dark:text-gray-300 font-normal "
               }`}
             >
@@ -105,8 +111,8 @@ export default function Navbar() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="17"
                   height="17"
-                  fill="yellow"
-                  className="inline-block w-3 h-3 bi bi-arrow-down"
+                  fill="currentColor"
+                  className="inline-block w-3 h-3 text-red-700 bi bi-arrow-down dark:text-yellow-400"
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -131,8 +137,8 @@ export default function Navbar() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="17"
                   height="17"
-                  fill="yellow"
-                  className="inline-block w-3 h-3 bi bi-arrow-down"
+                  fill="currentColor"
+                  className="inline-block w-3 h-3 text-red-700 bi bi-arrow-down dark:text-yellow-400"
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -203,7 +209,7 @@ export default function Navbar() {
                 viewBox="0 0 24 24"
                 fill="currentColor"
                 stroke="currentColor"
-                className="w-4 h-4 text-yellow-500 dark:text-yellow-500"
+                className="w-6 h-6 text-yellow-500 dark:text-yellow-500"
               >
                 {theme === "dark" ? (
                   <path
@@ -227,7 +233,7 @@ export default function Navbar() {
       </div>
       <div className="block mt-4 space-x-8 md:hidden">
         <Link href="/about">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300 hover:text-yellow-400">
+          <a className="text-base font-normal text-gray-600 dark:text-gray-300 hover:text-red-400">
             About
           </a>
         </Link>

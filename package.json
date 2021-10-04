@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@modulz/radix-icons": "^4.0.0",
     "axios": "^0.21.1",
     "bootstrap-icons": "^1.5.0",
     "github-calendar": "^2.2.7",
