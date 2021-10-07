@@ -43,8 +43,8 @@ const userData = {
       imgUrl: "/reduxTimer.png",
     },
     {
-      title: "Vacation Rentals",
-      link: "https://github.com/Placido81/fsw-120/tree/main/week2/vacation-spots",
+      title: "Calculator",
+      link: "https://github.com/Placido81/fsw-120/tree/main/week6/calc",
       imgUrl: "/calc.png",
     },
   ],
