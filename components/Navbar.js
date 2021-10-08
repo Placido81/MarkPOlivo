@@ -21,7 +21,7 @@ export default function Navbar() {
    
       <div className="flex items-center justify-between md:flex-row">
         {/* Logo / Home / Text */}
-        <RoughNotation type="circle" animationDuration={30}  iterations={4} show={true}  color="#f9002f" padding={[50, 32]}>
+        <RoughNotation type="circle" animationDuration={30}  iterations={4} show={true}  color="#f9002f" padding={[30, 12]}>
 
         <div className="flex flex-col">
           <Link href="/">

@@ -6,7 +6,7 @@ export default function Projects() {
     <section className="bg-[#1B8EF2] dark:bg-gray-700" id="proj-section">
       <div className="h-48 max-w-6xl mx-auto bg-[#1B8EF2] dark:bg-gray-700">
         <h1 className="px-20 text-5xl font-bold text-center transform skew-y-10 md:text-9xl md:text-left " id="proj">
-          Projects
+          My Projects
         </h1>
       </div>
       {/* Grid starts here */}

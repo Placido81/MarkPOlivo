@@ -25,7 +25,7 @@ const userData = {
     {
       title: "Employee Database",
       link:"https://github.com/Placido81/fsw-125/tree/main/week6/fullstack-app",
-      imgUrl: "/employee.png",
+      imgUrl: "/badge.png",
     },
     {
       title: "Contact App",

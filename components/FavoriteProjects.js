@@ -74,18 +74,18 @@ export default function FavoriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://github.com/Placido81/fsw-115/tree/main/week6/apiWebPage"
+            href="https://github.com/Placido81/fsw-130/tree/main/week6/redux-contact-app"
             className="block object-cover w-full col-span-2 p-50 sm:col-span-1 "
           >
-            <div className="relative overflow-hidden shadow-2xl">
-              {/* <div className="absolute inset-0 z-10 bg-black overlay bg-opacity-70"></div> */}
+            <div className="relative shadow-2xl overflow">
+              
               <img
-                src="/pureBreeds.png"
-                alt="breeds"
-                className="object-cover transition ease-out transform shadow-5xl hover:scale-125 duration-2000 h-300"
+                src="/projectPic1.png"
+                alt="contact"
+                className="object-cover transition ease-out transform border shadow-5xl hover:scale-125 duration-2000 h-600 w-400"
               />
               <h1 className="absolute px-2 text-xl font-bold text-white bg-red-500 rounded-md top-10 left-10">
-                PureBreeds
+                Redux Contact App
               </h1>
               <h1 className="absolute text-xl font-bold text-red-600 bottom-10 left-10 ">
                 03

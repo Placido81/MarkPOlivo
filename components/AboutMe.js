@@ -1,6 +1,8 @@
 import React from "react";
 import userData from "constants/data";
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+import { RoughNotation } from "react-rough-notation";
+
+import Atropos from 'atropos/react';
 
 
 export default function AboutMe() {
@@ -146,59 +148,66 @@ export default function AboutMe() {
             <h1 className="inline-block px-2 py-1 text-3xl font-bold transform bg-red-500 rounded-md text-gray-50">
               Tech Stack
             </h1>
+            <Atropos>
             <div className="flex flex-row flex-wrap mt-8 transition duration-500 ease-in-out delay-300">
+           
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-                className="w-20 h-20 mx-4 my-4 animate-pulse"
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" data-atropos-offset="-5"
+                className="w-20 h-20 mx-4 my-4 animate-pulse "  id="icons"
+              />
+             
+              <img
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" data-atropos-offset="-5"
+                className="w-20 h-20 mx-4 my-4 animate-pulse" id="icons"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
-                className="w-20 h-20 mx-4 my-4 animate-pulse"
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" data-atropos-offset="-5"
+                className="w-20 h-20 mx-4 my-4 animate-pulse" id="icons"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                className="w-20 h-20 mx-4 my-4 animate-pulse"
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" data-atropos-offset="-5"
+                className="w-20 h-20 mx-4 my-4 animate-pulse" id="icons"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
-                className="w-20 h-20 mx-4 my-4 animate-pulse"
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" data-atropos-offset="-5"
+                className="w-20 h-20 mx-4 my-4 animate-pulse atropos-scale" id="icons"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
-                className="w-20 h-20 mx-4 my-4 animate-pulse"
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png" data-atropos-offset="-5"
+                className="w-20 h-20 mx-4 my-4 animate-pulse" id="icons"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
-                className="w-20 h-20 mx-4 my-4 animate-pulse"
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png" data-atropos-offset="-5"
+                className="w-20 h-20 mx-4 my-4 animate-pulse" id="icons"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
-                className="w-20 h-20 mx-4 my-4 animate-pulse"
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" data-atropos-offset="-5"
+                className="w-20 h-20 mx-4 my-4 animate-pulse" id="icons"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
-                className="w-20 h-20 mx-4 my-4 animate-pulse"
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" data-atropos-offset="-5"
+                className="w-20 h-20 mx-4 my-4" id="icons"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-                className="w-20 h-20 mx-4 my-4"
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" data-atropos-offset="-5"
+                className="w-20 h-20 mx-4 my-4" id="icons"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
-                className="w-20 h-20 mx-4 my-4"
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" data-atropos-offset="-5"
+                className="w-20 h-20 mx-4 my-4" id="icons"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
-                className="w-20 h-20 mx-4 my-4"
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" data-atropos-offset="-5"
+                className="w-20 h-20 mx-4 my-4" id="icons"
               />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
-                className="w-20 h-20 mx-4 my-4"
-              />
+            
             </div>
+            </Atropos>
           </div>
+         
         </div>
       </div>
+      
     </section>
   );
 }
