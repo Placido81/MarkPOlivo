@@ -82,7 +82,7 @@ export default function FavoriteProjects() {
               <img
                 src="/pureBreeds.png"
                 alt="breeds"
-                className="object-cover transition ease-out transform shadow-5xl hover:scale-135 duration-2000 h-300"
+                className="object-cover transition ease-out transform shadow-5xl hover:scale-125 duration-2000 h-300"
               />
               <h1 className="absolute px-2 text-xl font-bold text-white bg-red-500 rounded-md top-10 left-10">
                 PureBreeds
