@@ -37,10 +37,10 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
             className="object-cover w-full h-full transition ease-out transform hover:scale-125 duration-2000"
           />
         </div>
-        <h1 className="absolute px-2 text-xl font-bold bg-red-500 rounded-md top-10 left-10 text-gray-50">
+        <h1 className="absolute px-2 text-xl font-bold bg-red-500 rounded-md top-10 left-10 text-red-50">
           {title}
         </h1>
-        <h1 className="absolute text-xl font-bold bottom-10 left-10 text-gray-50">
+        <h1 className="absolute text-xl font-bold text-red-600 bottom-10 left-10">
           {number.length === 1 ? "0" + number : number}
         </h1>
       </div>

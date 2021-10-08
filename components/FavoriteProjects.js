@@ -35,59 +35,59 @@ export default function FavoriteProjects() {
         <div className="grid gap-8 pb-40 md:grid-cols-3 lg:-mt-8">
           {/* Single card */}
           <a
-            href="https://tailwindmasterkit.com"
+            href="https://github.com/Placido81/fsw-125/tree/main/week6/fullstack-app"
             className="block w-full col-span-3 shadow-2xl"
           >
-            <div className="relative overflow-hidden">
+            <div className="relative overflow-hidden ring-2 ring-white">
               <img
-                src="/tmk.jpg"
-                alt="portfolio"
+                src="/graffitti-art.png"
+                alt="graffitti-art"
                 className="transition ease-out transform hover:scale-125 duration-2000"
               />
-              <h1 className="absolute px-2 text-xl font-bold bg-red-500 rounded-md top-10 left-10 text-gray-50">
-                Tailwind Master Kit
+              <h1 className="absolute px-2 text-xl font-bold text-white bg-red-500 rounded-md 0 top-10 left-10">
+               Graffitti Art Gallery
               </h1>
-              <h1 className="absolute text-xl font-bold bottom-10 left-10 text-gray-50">
+              <h1 className="absolute text-xl font-bold text-red-600 bottom-10 left-10">
                 01
               </h1>
             </div>
           </a>
           {/* Single card */}
           <a
-            href="https://placeholdertech.in"
-            className="block w-full col-span-3 shadow-2xl sm:col-span-2"
+            href="https://github.com/Placido81/fsw-125/tree/main/week6/fullstack-app"
+            className="block w-full col-span-3 shadow-2xl sm:col-span-2 ring-2 ring-white"
           >
             <div className="relative overflow-hidden">
               {/* <div className="absolute inset-0 z-10 bg-black overlay bg-opacity-70"></div> */}
               <img
-                src="/placeholdertech.png"
-                alt="portfolio"
+                src="/employee-badge.png"
+                alt="badge"
                 className="transition ease-out transform hover:scale-125 duration-2000"
               />
-              <h1 className="absolute px-2 text-xl font-bold bg-red-500 rounded-md top-10 left-10 text-gray-50">
-                PlaceholderTech
+              <h1 className="absolute px-2 text-xl font-bold text-white bg-red-500 rounded-md top-10 left-10">
+                Employee Database
               </h1>
-              <h1 className="absolute text-xl font-bold bottom-10 left-10 text-gray-50">
+              <h1 className="absolute text-xl font-bold text-red-600 bottom-10 left-10">
                 02
               </h1>
             </div>
           </a>
           {/* Single card */}
           <a
-            href=""
-            className="block object-cover w-full col-span-3 sm:col-span-1"
+            href="https://github.com/Placido81/fsw-115/tree/main/week6/apiWebPage"
+            className="block object-cover w-full col-span-2 p-50 sm:col-span-1 "
           >
             <div className="relative overflow-hidden shadow-2xl">
               {/* <div className="absolute inset-0 z-10 bg-black overlay bg-opacity-70"></div> */}
               <img
-                src="/portfolio.png"
-                alt="portfolio"
-                className="object-cover transition ease-out transform shadow-2xl hover:scale-125 duration-2000"
+                src="/pureBreeds.png"
+                alt="breeds"
+                className="object-cover transition ease-out transform shadow-5xl hover:scale-135 duration-2000 h-300"
               />
-              <h1 className="absolute px-2 text-xl font-bold bg-red-500 rounded-md top-10 left-10 text-gray-50">
-                Portfolio
+              <h1 className="absolute px-2 text-xl font-bold text-white bg-red-500 rounded-md top-10 left-10">
+                PureBreeds
               </h1>
-              <h1 className="absolute text-xl font-bold bottom-10 left-10 text-gray-50">
+              <h1 className="absolute text-xl font-bold text-red-600 bottom-10 left-10 ">
                 03
               </h1>
             </div>

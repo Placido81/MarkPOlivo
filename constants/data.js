@@ -10,7 +10,7 @@ const userData = {
     {
       title: "Graffitti Art Gallery",
       link: "https://github.com/Placido81/graffitti-gallery.git",
-      imgUrl: "/graffitt-art.png",
+      imgUrl: "/graffitti-art.png",
     },
     {
       title: "Event Tracker",
@@ -35,7 +35,7 @@ const userData = {
     {
       title: "Pure Breeds",
       link: "https://github.com/Placido81/fsw-115/tree/main/week6/apiWebPage",
-      imgUrl: "/playground.png",
+      imgUrl: "/purebreeds.png",
     },
     {
       title: "Redux Timer",
