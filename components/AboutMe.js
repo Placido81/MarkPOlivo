@@ -91,7 +91,9 @@ export default function AboutMe() {
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr; </div>
+                 
                   <p className="relative overflow-hidden font-mono text-lg text-gray-500 dark:text-gray-300">
+                 
                     <div className="absolute h-0.5 w-full bg-red-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300 hover:text-blue-400"></div>
                     Twitter
                    

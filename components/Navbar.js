@@ -23,7 +23,7 @@ export default function Navbar() {
         {/* Logo / Home / Text */}
         <RoughNotation type="circle" animationDuration={30}  iterations={4} show={true}  color="#f9002f" padding={[30, 12]}>
 
-        <div className="flex flex-col">
+        <div className="flex md:flex-col">
           <Link href="/">
           
             <a>

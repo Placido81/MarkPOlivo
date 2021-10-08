@@ -35,7 +35,7 @@ const userData = {
     {
       title: "Pure Breeds",
       link: "https://github.com/Placido81/fsw-115/tree/main/week6/apiWebPage",
-      imgUrl: "/purebreeds.png",
+      imgUrl: "/pureBreeds.png",
     },
     {
       title: "Redux Timer",
