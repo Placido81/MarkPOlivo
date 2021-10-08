@@ -148,61 +148,82 @@ export default function AboutMe() {
             <h1 className="inline-block px-2 py-1 text-3xl font-bold transform bg-red-500 rounded-md text-gray-50">
               Tech Stack
             </h1>
-            <Atropos>
-            <div className="flex flex-row flex-wrap mt-8 transition duration-500 ease-in-out delay-300">
            
+            <div className="flex flex-row flex-wrap mt-8 transition duration-500 ease-in-out delay-300">
+            <Atropos>
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" data-atropos-offset="-5"
                 className="w-20 h-20 mx-4 my-4 animate-pulse "  id="icons"
               />
-             
+              </Atropos>
+              <Atropos>
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" data-atropos-offset="-5"
                 className="w-20 h-20 mx-4 my-4 animate-pulse" id="icons"
               />
+              </Atropos>
+              <Atropos>
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" data-atropos-offset="-5"
                 className="w-20 h-20 mx-4 my-4 animate-pulse" id="icons"
               />
+              </Atropos>
+              <Atropos>
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" data-atropos-offset="-5"
                 className="w-20 h-20 mx-4 my-4 animate-pulse" id="icons"
               />
+              </Atropos>
+              <Atropos>
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" data-atropos-offset="-5"
                 className="w-20 h-20 mx-4 my-4 animate-pulse atropos-scale" id="icons"
               />
+              </Atropos>
+              <Atropos>
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png" data-atropos-offset="-5"
                 className="w-20 h-20 mx-4 my-4 animate-pulse" id="icons"
               />
+              </Atropos>
+              <Atropos>
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png" data-atropos-offset="-5"
                 className="w-20 h-20 mx-4 my-4 animate-pulse" id="icons"
               />
+              </Atropos>
+              <Atropos>
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" data-atropos-offset="-5"
                 className="w-20 h-20 mx-4 my-4 animate-pulse" id="icons"
               />
+              </Atropos>
+              <Atropos>
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" data-atropos-offset="-5"
                 className="w-20 h-20 mx-4 my-4" id="icons"
               />
+              </Atropos>
+              <Atropos>
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" data-atropos-offset="-5"
                 className="w-20 h-20 mx-4 my-4" id="icons"
               />
+              </Atropos>
+              <Atropos>
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" data-atropos-offset="-5"
                 className="w-20 h-20 mx-4 my-4" id="icons"
               />
+              </Atropos>
+              <Atropos>
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" data-atropos-offset="-5"
                 className="w-20 h-20 mx-4 my-4" id="icons"
               />
-            
+              </Atropos>
             </div>
-            </Atropos>
+          
           </div>
          
         </div>
