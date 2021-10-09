@@ -178,7 +178,7 @@ export default function AboutMe() {
               </Atropos>
               <Atropos>
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" data-atropos-offset="-5"
+                src="https://user-images.githubusercontent.com/70597385/136672781-e25815c8-64c7-449b-a17a-23b225f3f62c.png" data-atropos-offset="-5"
                 className="w-20 h-20 mx-4 my-4 animate-pulse atropos-scale" id="icons"
               />
               </Atropos>

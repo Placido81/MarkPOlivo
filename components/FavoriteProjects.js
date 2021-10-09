@@ -35,7 +35,7 @@ export default function FavoriteProjects() {
         <div className="grid gap-8 pb-40 md:grid-cols-3 lg:-mt-8">
           {/* Single card */}
           <a
-            href="https://github.com/Placido81/fsw-125/tree/main/week6/fullstack-app"
+            href="https://github.com/Placido81/graffitti-gallery.git"
             className="block w-full col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden ring-2 ring-white">
@@ -54,7 +54,7 @@ export default function FavoriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://github.com/Placido81/fsw-125/tree/main/week6/fullstack-app"
+            href="https://github.com/Placido81/graffitti-gallery.git"
             className="block w-full col-span-3 shadow-2xl sm:col-span-2 ring-2 ring-white"
           >
             <div className="relative overflow-hidden">

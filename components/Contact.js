@@ -1,6 +1,7 @@
 import React from "react";
 import userData from "@constants/data";
 
+
 export default function Contact() {
   return (
     <section>
@@ -123,7 +124,9 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <form className="flex flex-col p-4 bg-white border-4 border-yellow-400 rounded-lg form">
+
+          
+          <form id="my-form" action="https://formspree.io/f/xjvjzzwr" method="POST" className="flex flex-col p-4 bg-white border-4 border-yellow-400 rounded-lg form"  id="my-form">
             <label htmlFor="name" className="mx-4 text-sm text-blue-900">
               {" "}
               Your Name
@@ -137,10 +140,11 @@ export default function Contact() {
               Email
             </label>
             <input
-              type="text"
+              type="email"
               className="px-1 py-2 mx-4 mt-2 font-light text-red-700 rounded-md focus:outline-red-400 ring-2 ring-red-500 focus:border"
               name="email"
             />
+           
             <label
               htmlFor="message"
               className="mx-4 mt-4 text-sm text-blue-900"
@@ -153,14 +157,16 @@ export default function Contact() {
               className="px-1 py-2 mx-4 mt-2 font-light text-red-700 border rounded-md focus:outline ring-2 focus:border ring-red-500"
               name="message"
             ></textarea>
+            
             <div className="space-x-6 ">
             <button
               type="submit"
               className="w-1/2 py-2 text-xs font-bold bg-blue-500 rounded-md mt-9 mx-9 text-yellow-50 ring-yellow-300 ring-4 hover:bg-red-600"
-            >
+              id="my-form-button" >
               Send Message
             </button>
             </div>
+            <p id="my-form-status"></p>
           </form>
         </div>
       </div>

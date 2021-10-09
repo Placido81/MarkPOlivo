@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@formspree/react": "^2.2.4",
     "@modulz/radix-icons": "^4.0.0",
     "atropos": "^0.9.6",
     "axios": "^0.21.1",
