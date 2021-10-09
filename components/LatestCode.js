@@ -12,10 +12,10 @@ export default function LatestCode({ repositories }) {
     setRepos(repositories);
   }, []);
   return (
-    <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900 pb-40">
+    <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-700 pb-40">
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col items-center justify-between mx-10 md:flex-row md:pt-40">
-          <h1 className="max-w-lg my-20 text-6xl font-bold text-center lg:text-9xl md:my-0 md:text-white dark:text-gray-600 lg:text-left rotate-25" id="latestCode">
+        <div className="flex flex-col items-center justify-between mx-10 md:flex-row md:pt-40 dark:bg-gray-700">
+          <h1 className="max-w-lg my-20 text-6xl font-bold text-center lg:text-9xl md:my-0 lg:text-left rotate-25" id="latestCode">
             Latest Code
           </h1>
 
@@ -28,7 +28,7 @@ export default function LatestCode({ repositories }) {
               width="16"
               height="16"
               fill="currentColor"
-              className="text-red-700 bi bi-arrow-up-right-square"
+              className="text-red-700 bi bi-arrow-up-right-square dark:bg-yellow-300"
               stroke="4"
               strokeWidth="4"
               viewBox="0 0 16 16"
@@ -38,7 +38,7 @@ export default function LatestCode({ repositories }) {
                 d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"
               />
             </svg>
-            <p className="text-red-700 underline">View GitHub</p>
+            <p className="text-red-700 underline ">View GitHub</p>
           </a>
         </div>
       </div>
@@ -57,17 +57,17 @@ export default function LatestCode({ repositories }) {
 const GithubRepoCard = ({ latestRepo }) => {
   return (
     <div className="github-repo">
-      <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
+      <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-300">
         {latestRepo.name}
       </h1>
-      <p className="my-4 text-base font-normal text-gray-500">
+      <p className="my-4 text-base font-normal dark:text-gray-500">
         {latestRepo.description}
       </p>
       <a
         href={latestRepo.clone_url}
         className="flex flex-row items-center w-full space-x-2 font-semibold group"
       >
-        <p>View Repository </p>
+        <p className="text-blue-900 dark:text-yellow-300">View Repository </p>
         <div className="transition duration-300 transform group-hover:translate-x-2">
           &rarr;
         </div>

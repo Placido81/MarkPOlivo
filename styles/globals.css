@@ -75,7 +75,7 @@ text-shadow: 6px 3px 0 red;
 }
 #latestCode:hover{
   letter-spacing: 3px;
-  animation:slide-fwd-tl .45s cubic-bezier(.25,.46,.45,.94) both
+  
 }
 #latestCode{
   background: linear-gradient(219deg, 
@@ -147,8 +147,8 @@ color: transparent;
 #heart{
   position: relative;
   right: 1.0em;
-  bottom: 1.0em;
+  bottom: 0.5em;
 }
 #icons{
-  border: 2px solid red;
+  border: 2px ridge red;
 }

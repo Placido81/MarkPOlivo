@@ -36,7 +36,7 @@ export default function Navbar() {
              
                 {userData.name}
               </h1>
-              <p className="text-base font-light text-gray-600 dark:text-blue-400 hover:underline hover:text-blue-500">
+              <p className="text-base font-light text-gray-500 dark:text-blue-400 hover:underline hover:text-blue-500">
                 {userData.designation}
               </p>
             </a>
@@ -49,8 +49,8 @@ export default function Navbar() {
             <a
               className={`text-base  ${
                 router.asPath === "/about"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
+                  ? "text-gray-500 font-bold dark:text-gray-300"
+                  : "text-gray-500 dark:text-gray-300 font-normal "
               }`}
             >
               About{" "}
@@ -60,7 +60,7 @@ export default function Navbar() {
                   width="17"
                   height="17"
                   fill="currentColor"
-                  className="inline-block w-3 h-3 text-red-700 bi bi-arrow-down dark:text-yellow-400 "
+                  className="inline-block w-3 text-red-600 h-7 bi bi-arrow-down dark:text-yellow-300 "
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -75,7 +75,7 @@ export default function Navbar() {
             <a
               className={`text-base  ${
                 router.asPath === "/projects"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
+                  ? "text-gray-600 font-bold dark:text-gray-300"
                   : "text-gray-600 dark:text-gray-300 font-normal "
               }`}
             >
@@ -86,7 +86,7 @@ export default function Navbar() {
                   width="17"
                   height="17"
                   fill="currentColor"
-                  className="inline-block w-3 h-3 text-red-700 bi bi-arrow-down dark:text-yellow-400"
+                  className="inline-block w-3 text-red-600 h-7 bi bi-arrow-down dark:text-yellow-400"
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -101,7 +101,7 @@ export default function Navbar() {
             <a
               className={`text-base  ${
                 router.asPath === "/experience"
-                  ? "text-gray-500 font-bold dark:text-gray-300"
+                  ? "text-gray-600 font-bold dark:text-gray-300"
                   : "text-gray-600 dark:text-gray-300 font-normal "
               }`}
             >
@@ -112,7 +112,7 @@ export default function Navbar() {
                   width="17"
                   height="17"
                   fill="currentColor"
-                  className="inline-block w-3 h-3 text-red-700 bi bi-arrow-down dark:text-yellow-400"
+                  className="inline-block w-3 text-red-600 h-7 bi bi-arrow-down dark:text-yellow-300 "
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -127,7 +127,7 @@ export default function Navbar() {
             <a
               className={`text-base  ${
                 router.asPath === "/contact"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
+                  ? "text-gray-600 font-bold dark:text-gray-300"
                   : "text-gray-600 dark:text-gray-300 font-normal "
               }`}
             >
@@ -138,7 +138,7 @@ export default function Navbar() {
                   width="17"
                   height="17"
                   fill="currentColor"
-                  className="inline-block w-3 h-3 text-red-700 bi bi-arrow-down dark:text-yellow-400"
+                  className="inline-block w-3 text-red-600 h-7 bi bi-arrow-down dark:text-yellow-300 "
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -233,7 +233,7 @@ export default function Navbar() {
       </div>
       <div className="block mt-4 space-x-8 md:hidden">
         <Link href="/about">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300 hover:text-red-400">
+          <a className="text-base font-normal text-gray-600 dark:text-gray-300 ">
             About
           </a>
         </Link>

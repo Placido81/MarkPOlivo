@@ -4,7 +4,7 @@ import userData from "@constants/data";
 export default function Contact() {
   return (
     <section>
-      <div className="md:h-48 md:max-w-5xl mx-auto transform sm:skew-x-12 -rotate-5 bg-[#1B8EF2] dark:bg-gray-600 " id="contact-container">
+      <div className="md:h-48 md:max-w-5xl mx-auto transform md:skew-x-12 -rotate-5 bg-[#1B8EF2] dark:bg-gray-600 " id="contact-container">
         <h1 className="text-6xl font-bold text-center transform -translate-y-4 skew-x-12 rotate-25 skew-y-2 md:text-9xl md:text-left" id="contact">
           Contact Me
         </h1>
@@ -13,7 +13,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="md:ml-4">
             <header className="">
-              <h1 className="text-2xl font-semibold text-gray-50" id="getInTouch">
+              <h1 className="font-semibold md:text-2xl text-gray-50" id="getInTouch">
                 Get in touch, let's talk.
               </h1>
               <p className="mt-2 text-base font-light text-gray-200 underline">
