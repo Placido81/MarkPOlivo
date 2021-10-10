@@ -28,17 +28,17 @@ export default function Hero() {
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[3]}>
-            <h1 className="py-1 mx-1 my-2 font-bold text-gray-700 txext-4xl m md:text-8xl dark:text-gray-200 animate-pulse" id="teamplayer">
+            <h1 className="py-1 mx-1 my-2 text-4xl font-bold text-gray-700 md:text-8xl dark:text-gray-200 animate-pulse" id="teamplayer">
               TeamPlayer.
             </h1>
           </RainbowHighlight>
         </RoughNotationGroup>
       </div>
       {/* Image container */}
-      <div className="relative hidden w-full mt-20 -mr-40 lg:block sm:w-1/2">
+      <div className="relative hidden w-full mt-20 -mr-40 lg:block md:w-1/2">
     
         <div className="w-3/4">
-          <img src={userData.RedSelfUrl} alt="me" className="transform shadow-lg md:skew-y-6 scale-80 sm:transformgpu md:rounded-t-lg ring-4 ring-yellow-200 inset-10 md:scale-75 md:drop-shadow-xl" />
+          <img src={userData.RedSelfUrl} alt="me" className="transform skew-y-6 shadow-lg scale-80 transformgpu md:rounded-t-lg ring-4 ring-yellow-200 inset-10 md:scale-75 md:drop-shadow-xl" />
           <div className="flex flex-row mt-2">
         
           <RoughNotation type="underline" show={true} color="white" animationDuration={30}  iterations={5}  multiline={true}

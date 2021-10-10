@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section>
       <div className="md:h-48 md:max-w-5xl mx-auto transform md:skew-x-12 -rotate-5 bg-[#1B8EF2] dark:bg-gray-600 " id="contact-container">
-        <h1 className="text-6xl font-bold text-center transform -translate-y-4 skew-x-12 rotate-25 skew-y-2 md:text-9xl md:text-left" id="contact">
+        <h1 className="mb-8 text-6xl font-bold text-center transform -translate-y-4 skew-x-10 rotate-25 md:text-9xl" id="contact">
           Contact Me
         </h1>
       </div>
@@ -14,15 +14,15 @@ export default function Contact() {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="md:ml-4">
             <header className="">
-              <h1 className="font-semibold md:text-2xl text-gray-50" id="getInTouch">
+              <h1 className="text-2xl font-semibold text-gray-50" id="getInTouch">
                 Get in touch, let's talk.
               </h1>
               <p className="mt-2 text-base font-light text-gray-200 underline">
                 Fill in the details and I'll get back to you ASAP!
               </p>
             </header>
-            <div className="inline-flex flex-col my-20 icons-container">
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-yellow-100  p-4">
+            <div className="inline-flex flex-col md:my-20 icons-container">
+              <div className="flex flex-row items-center space-x-7 rounded-md border border-[#02044A] hover:border hover:border-yellow-100  p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -126,14 +126,14 @@ export default function Contact() {
           </div>
 
           
-          <form id="my-form" action="https://formspree.io/f/xjvjzzwr" method="POST" className="flex flex-col p-4 bg-white border-4 border-yellow-400 rounded-lg form"  id="my-form">
+          <form  action="https://formspree.io/f/xjvjzzwr" method="POST" className="flex flex-col p-4 bg-white border-4 border-yellow-400 rounded-lg form"  id="my-form">
             <label htmlFor="name" className="mx-4 text-sm text-blue-900">
-              {" "}
+             
               Your Name
             </label>
             <input
               type="text"
-              className="px-1 py-2 mx-4 mt-2 font-light text-red-700 border rounded-md focus:outline ring-2 focus:border ring-red-500"
+              className="px-1 py-2 mx-4 mt-2 font-light text-red-700 border rounded-md focus:outline ring-2 focus:border ring-red-500 dark:bg-gray-500 dark:text-yellow-300"
               name="name"
             />
             <label htmlFor="email" className="mx-4 mt-4 text-sm text-blue-900">
@@ -141,7 +141,7 @@ export default function Contact() {
             </label>
             <input
               type="email"
-              className="px-1 py-2 mx-4 mt-2 font-light text-red-700 rounded-md focus:outline-red-400 ring-2 ring-red-500 focus:border"
+              className="px-1 py-2 mx-4 mt-2 font-light text-red-700 rounded-md focus:outline-red-400 ring-2 ring-red-500 focus:border dark:bg-gray-500 dark:text-yellow-300"
               name="email"
             />
            
@@ -154,7 +154,7 @@ export default function Contact() {
             <textarea
               rows="4"
               type="text"
-              className="px-1 py-2 mx-4 mt-2 font-light text-red-700 border rounded-md focus:outline ring-2 focus:border ring-red-500"
+              className="px-1 py-2 mx-4 mt-2 font-light text-red-700 border rounded-md focus:outline ring-2 focus:border ring-red-500 dark:bg-gray-500 dark:text-yellow-300"
               name="message"
             ></textarea>
             

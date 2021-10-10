@@ -16,7 +16,7 @@ export default function FavoriteProjects() {
                 width="16"
                 height="16"
                 fill="currentColor"
-                className="text-red-700 bi bi-arrow-up-right-square"
+                className="text-red-700 bg-yellow-300 bi bi-arrow-up-right-square"
                 stroke="4"
                 strokeWidth="6"
                 viewBox="0 0 16 16"
@@ -54,7 +54,7 @@ export default function FavoriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://github.com/Placido81/graffitti-gallery.git"
+            href="https://github.com/Placido81/graffitti-gallery.gi"
             className="block w-full col-span-3 shadow-2xl sm:col-span-2 ring-2 ring-white"
           >
             <div className="relative overflow-hidden">
