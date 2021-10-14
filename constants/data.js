@@ -23,9 +23,9 @@ const userData = {
       imgUrl: "/checkout.png",
     },
     {
-      title: "Employee Database",
-      link:"https://github.com/Placido81/fsw-125/tree/main/week6/fullstack-app",
-      imgUrl: "/badge.png",
+      title: "Spa Plumbing",
+      link:"https://github.com/Placido81/fsw-120/tree/main/week5/spa-plumbing",
+      imgUrl: "/spa-plumbing.png",
     },
     {
       title: "Contact App",
@@ -104,7 +104,9 @@ const userData = {
       company: "Contra",
       year: "2018-2020",
       jobType: "Contract",
-      desc: "Collaborate with your team to deeply understand the needs of our users and clients and then plan, design, and build features that best serve those needs Take ownership of the work you do on projects from strategy to design to implementation to deployment and maintenance Be an impactful contributor to your team, discipline, and company, participating in our culture and helping us improve and push our internal tools, libraries, workflows, and standards forward. Design and build features that are performant, accessible, and steeped in the best practices of modern frontend development standards and patterns"
+      desc: "Gain experience in architecting, designing and implementing products within a new system or existing platform. Brainstorm on new product features with senior developers. Build single page applications with HTML, JavaScript, React, Next.js, Express, Vue.js. Also Style the New Application or existing applications that other people on the team built that. We used CSS, Tailwind, SASS, Styled Components. We did a lot of code review with are peers and version control."
+
+      
       
       
     },
@@ -112,13 +114,13 @@ const userData = {
     
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1DwSpQ_gpHkPqH8Lzy3pCJqa1Fzgc525Z/view?usp=sharing",
+    "https://drive.google.com/file/d/1yd7eWPxeuxdImf10uu7KatKjXGgOojA2/view?usp=sharing",
   socialLinks: {
     
     twitter: "https://twitter.com/MarkOlivo7",
     linkedin: "https://linkedin.com/in/markolivo81",
     github: "https://github.com/Placido81",
-    facebook: "https://facebook.com/",
+    facebook: "https://facebook.com/mark.olivo.50",
   },
 };
 
