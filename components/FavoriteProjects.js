@@ -60,7 +60,7 @@ export default function FavoriteProjects() {
             <div className="relative overflow-hidden">
               {/* <div className="absolute inset-0 z-10 bg-black overlay bg-opacity-70"></div> */}
               <img
-                src="/eventTracker.png"
+                src="/eventtracker.png"
                 alt="business"
                 className="transition ease-out transform hover:scale-125 duration-2000"
               />
