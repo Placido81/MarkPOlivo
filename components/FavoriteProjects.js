@@ -54,18 +54,18 @@ export default function FavoriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://github.com/Placido81/graffitti-gallery.gi"
+            href="https://github.com/Placido81/fsw-120/tree/main/week5/spa-plumbing"
             className="block w-full col-span-3 shadow-2xl sm:col-span-2 ring-2 ring-white"
           >
             <div className="relative overflow-hidden">
               {/* <div className="absolute inset-0 z-10 bg-black overlay bg-opacity-70"></div> */}
               <img
-                src="/employee-badge.png"
-                alt="badge"
+                src="/spa-plumbin.png"
+                alt="business"
                 className="transition ease-out transform hover:scale-125 duration-2000"
               />
               <h1 className="absolute px-2 text-xl font-bold text-white bg-red-500 rounded-md top-10 left-10">
-                Employee Database
+                SPA Plumbing
               </h1>
               <h1 className="absolute text-xl font-bold text-red-600 bottom-10 left-10">
                 02
