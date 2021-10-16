@@ -134,7 +134,7 @@ const userData = {
     
   ],
   resumeUrl:
-    "https://docs.google.com/document/d/1viqWmn9KUEkuMzJF4TkBa5qiddUAaCri/edit?usp=sharing&ouid=114926433191863989014&rtpof=true&sd=true",
+  "https://drive.google.com/file/d/1TOZ2k0rRVgjuXhy_ak3A8IE9Q5Vq5_W1/view?usp=sharing/",
   socialLinks: {
     
     twitter: "https://twitter.com/MarkOlivo7",
