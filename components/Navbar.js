@@ -17,9 +17,9 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl px-4 py-10 mx-auto md:py-20">
+    <div className="w-full max-w-6xl px-4 py-10 mx-auto md:py-20 ">
    
-      <div className="flex items-center justify-between md:flex-row">
+      <div className="flex items-center justify-between md:flex-row dark:bg-gray-500 dark:border-solid dark:border-yellow-300 dark:border-2 ">
         {/* Logo / Home / Text */}
         <RoughNotation type="circle" animationDuration={30}  iterations={4} show={true}  color="#f9002f" padding={[30, 12]}>
 

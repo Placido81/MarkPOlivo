@@ -4,13 +4,13 @@ import userData from "@constants/data";
 
 export default function Footer() {
   return (
-    <div className="bg-[#F1F1F1] dark:bg-gray-600">
+    <div className="bg-white dark:bg-gray-500">
       <div className="max-w-6xl px-4 py-20 mx-auto ">
         <div className="h-0.5 w-full  dark:bg-yellow-300 bg-yellow-300"></div>
-        <div className="flex flex-col items-center justify-between mt-8 space-y-0 md:space-y-5 md:flex-row">
-          <div className="mt-10 ml-30 md:ml-45">
+        <div className="flex flex-row items-center justify-between mt-8 space-y-0 md:flex-col md:space-y-5">
+          <div className="md:mt-12 ml-45 10">
           <img src="./copywright.png" className="w-4 h-4 " id="copywright"/>
-          <p className="text-blue-600 dark:text-gray-300 "> Mark P.Olivo All Rights Reserved.</p>
+          <p className="text-blue-500 dark:text-gray-300"> Mark P.Olivo All Rights Reserved.</p>
          
           </div>
           <div className="ml-5 md:mr-6">
