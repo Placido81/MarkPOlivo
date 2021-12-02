@@ -70,27 +70,35 @@ const userData = {
   },
   experience: [
     {
-      title: "Freelance Consultant",
+      title: "Consultant",
       company: "McDonald's",
-      year: "2021 3months",
+      year: "2020-2021 12 months",
      jobType: "Contract",
       desc: 	`Built a “pixel-perfect” single-page website with infinite scrolling using React, Node; used React Parallax so there was a little animation when scrolling,
-      	Used Create-React-App (CRA) to build SPAs,
-      	Used Tailwind.css to structure the way the sites’ content was positioned and to make them responsive to all screens`
+         Used Create-React-App (CRA) to build SPAs,
+         Used Tailwind.css to structure the way the sites’ content was positioned and to make them responsive to all
+      screens
+        
+       Bridge the gap between user interface design and technical implementation
+       Develop reusable code and components for custom design system
+       Implement new features for products by quickly and efficiently transforming mockups into working user interfaces
+        Work alongside designers to ensure components are accurately represented and implemented correctly across products
+       Explore and implement motion and animation design
+       Enforce accessibility and responsiveness across devices and browsers
+        `
       
     },
     {
       title: "Javascript Developer",
       company: "Cypress ",
-      year: "2021 4months",
+      year: "2019 2020 7 months",
      jobType: "Contract",
       desc: `	Developed and optimized high performance desktop, mobile, and web apps,
       	Worked closely with other engineers and product management teams to meet fixed deadlines
-      	Worked with internal and external partners to develop, debug, and deploy video delivery applications
       	Used Vanilla JavaScript, React, React Motion, Tailwind, and SASS to keep everything looking organized and neat
       	Worked with design teams to update sites designs and color schemes to be more user-friendly,
-      	Kept components short to allow more understandable logic and easier debugging; built new components to make the functionality of the website more efficient,
-      	Built server-side and client-side applications that used API’s using Node.js, Express, and MongoDB,
+      	Kept components short to allow more understandable logic and easier debugging; built new components to make the functionality of   the website more efficient,
+       Built server-side and client-side applications that used API’s using Node.js, Express, and MongoDB,
      	For the client side, used React, Axios to be able to pull data with the API keys to show to the end user`
       
       
@@ -99,17 +107,17 @@ const userData = {
     {
       title: "Javascript Developer",
       company: "G2i",
-      year: "2020 7months",
+      year: "2018-2019 12 months",
      jobType: "Contract",
-      desc: 	`Work cross-team (project management, designers, and fellow developers) with key stakeholders to develop engaging web applications (both internal and client-facing) Built landing pages and different Cards so people can showcase whatever they want to promote,
-     	Me and 4 team members would design one card a piece to make the process faster to build and make it more interesting for us. Create and enhance features for the core web application platform using frontend and backend Libraries such as React, Next.js, Typescript, Polymer Elements, CSS3, Tailwind.css. following company and industry best practices I would go over all the components with the client,
+      desc: 	` Work cross-team (project management, designers, and fellow developers) with key stakeholders to develop engaging web applications (both internal and client-facing) Built landing pages and different Cards so people can showcase whatever they want to promote,
+      	Me and 4 team members would design one card a piece to make the process faster to build and make it more interesting for us. Create and enhance features for the core web application platform using frontend and backend Libraries such as React, Next.js, Typescript, Polymer Elements, CSS3, Tailwind.css. following company and industry best practices I would go over all the components  with the client,
       	Also at the end of the project I would sit with client and go thru the whole site with them`
       
     },
     {
       title: "FullStack Developer",
       company: "Fast",
-      year: "2020 5months.",
+      year: "2019-2019 5 months.",
       jobType: "Contract",
       desc: `	Developed software to make buying online faster, safer, and easier for customer via Fast Login and Fast Checkout, enabling a one-click sign-in and purchasing experience for people to buy and merchants to sell,
       	The company’s products worked on any browser, device, or platform to deliver a consistent, stress-free purchasing experience; Fast was entirely consumer-focused and invested heavily in its users’ privacy and data security,
@@ -120,7 +128,7 @@ const userData = {
     {
       title: "Junior FullStack Developer",
       company: "Contra",
-      year: "2018-2020",
+      year: "2016-2018 2years",
       jobType: "Contract",
       desc: ` Gained experience in architecting, designing, and implementing products within a new system or existing platform,
       	Brainstormed on new product features with senior developers,
