@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import Link from "next/link";
 import ContainerBlock from "../components/ContainerBlock";
 import FavoriteProjects from "./../components/FavoriteProjects";
 import LatestCode from "./../components/LatestCode";
@@ -13,7 +13,7 @@ export default function Home({ repositories }) {
     <ContainerBlock
       title="Mark P.Olivo - Software Developer/Engineer, Creator, Designer, Builder"
       description=" I Love Creating, Designing and Building Cool Things, With Cool People.">
-    
+      <Link />
       <Head />
       <Hero />
       <FavoriteProjects />
