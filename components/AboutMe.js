@@ -41,33 +41,17 @@ export default function AboutMe() {
                 Contact Me
               </h1>
               <p className="mt-4 text-lg text-gray-500 dark:text-gray-300 ">
-                For any Reason you have some questions Please Ask Me
+                For any Reason you have some questions. Please Ask Me My  
                 <a
                   href={`mailto:${userData.email}`}
                   className="font-bold text-red-600 border-b-2 border-red-600 dark:border-gray-300 dark:text-yellow-300"
                 >
-                  mail
+                  Email
                 </a>
-                and I'll get back to you imediately 
+                  and I'll get back to you Imediately! 
               </p>
             </div>
-            <div className="mt-8">
-              <h1 className="text-xl font-semibold text-gray-700 underline dark:text-yellow-300">
-                Job Opportunities
-              </h1>
-              <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">
-                I'm looking for a job currently, If you see me as a good fit,
-                check my
-                <a
-                  href={userData.resumeUrl}
-                  target="__blank"
-                  className="font-bold text-red-600 border-b-2 border-red-600 dark:border-gray-300 dark:text-yellow-300"
-                >
-                  CV
-                </a>
-                and I'd love to Create Great things with your company.
-              </p>
-            </div>
+            
             {/* Social Links */}
             <h1 className="mt-8 text-xl font-semibold text-gray-700 underline dark:text-yellow-300">
               Social Links
