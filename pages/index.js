@@ -11,9 +11,9 @@ import userData from "@constants/data";
 export default function Home({ repositories }) {
   return (
     <ContainerBlock
-      title="Mark P.Olivo - Software Developer, Writer, Creator"
-      description=" Creating a developer portfolio that gets you a job."
-    >
+      title="Mark P.Olivo - Software Developer/Engineer, Creator, Designer, Builder"
+      description=" I Love Creating, Designing and Building Cool Things, With Cool People.">
+    
       <Head />
       <Hero />
       <FavoriteProjects />
@@ -40,13 +40,13 @@ export const getServerSideProps = async () => {
 
     
 function validate(contact){
-  var name = document.getElementsByName('name')[0].value;
+  const name = document.getElementsByName('name')[0].value;
   // You can also do the following
   // var name = document.getElementById('name').value;
   // var name = document.forms['contact'].elements['name'].value;
 
-  var email = document.getElementsByName('email')[0].value;
-  var message = document.getElementsByName('message')[0].value;
+  const email = document.getElementsByName('email')[0].value;
+  const message = document.getElementsByName('message')[0].value;
 
   if (name.length == 0 || name.length > 200)
   {

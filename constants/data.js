@@ -23,9 +23,9 @@ const userData = {
       imgUrl: "/checkout.png",
     },
     {
-      title: "Spa Plumbing",
-      link:"https://github.com/Placido81/fsw-120/tree/main/week5/spa-plumbing",
-      imgUrl: "/spa-plumbing.png",
+      title: "URL-Shortener-Tool",
+      link:"https://github.com/Placido81/my-shortUrl-tool.git",
+      imgUrl: "/pix.png",
     },
     {
       title: "Contact App",
@@ -43,9 +43,9 @@ const userData = {
       imgUrl: "/reduxTimer.png",
     },
     {
-      title: "Calculator",
-      link: "https://github.com/Placido81/fsw-120/tree/main/week6/calc",
-      imgUrl: "/calc.png",
+      title: "Password-Generator",
+      link: "https://github.com/Placido81/password-generator.git",
+      imgUrl: "/passwrd-genrtor.png",
     },
   ],
   about: {

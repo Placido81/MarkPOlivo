@@ -26,7 +26,7 @@ export default function FavoriteProjects() {
                   d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"
                 />
               </svg>
-              <p className="text-red-700 underline" >View all</p>
+              
             </a>
           </Link>
         </header>
@@ -74,13 +74,13 @@ export default function FavoriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://github.com/Placido81/fsw-130/tree/main/week6/redux-contact-app"
+            href="https://github.com/Placido81/password-generator.git"
             className="block object-cover w-full col-span-2 p-50 sm:col-span-1 "
           >
             <div className="relative shadow-2xl overflow">
               
               <img
-                src="/projectPic1.png"
+                src="/passwrd-genrtor.png"
                 alt="contact"
                 className="object-cover transition ease-out transform border shadow-5xl hover:scale-125 duration-2000 h-600 w-400"
               />

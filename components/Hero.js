@@ -14,7 +14,7 @@ export default function Hero() {
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={colors[0]}>
             <h1 className="my-2 text-4xl font-bold text-gray-700 md:text-8xl dark:text-gray-200 animate-pulse" id="dev">
-              Developer.
+              Creator.
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[1]}>
@@ -24,12 +24,12 @@ export default function Hero() {
           </RainbowHighlight>
           <RainbowHighlight color={colors[2]}>
             <h1 className="py-3 my-2 text-4xl font-bold text-gray-600 md:text-8xl dark:text-gray-200 animate-pulse" id="programmer">
-              Programmer.
+              Developer.
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[3]}>
             <h1 className="py-1 mx-1 my-2 text-4xl font-bold text-gray-700 md:text-8xl dark:text-gray-200 animate-pulse" id="teamplayer">
-              TeamPlayer.
+              Collaborator.
             </h1>
           </RainbowHighlight>
         </RoughNotationGroup>

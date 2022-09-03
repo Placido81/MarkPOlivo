@@ -88,8 +88,9 @@ text-shadow: 6px 3px 0 red;
   var(--color-4) 60%, var(--color-4) 79%,
   transparent 79%, transparent 80%, 
   var(--color-5) 80%);
-background-clip: text;
+
 -webkit-background-clip: text;
+background-clip: text;
 color: transparent;
 }
 /* EXPEREIENCE */
@@ -97,6 +98,7 @@ color: transparent;
 #year{
   background: -webkit-linear-gradient(#f9002f 40%, #ffea00 60%, #1B8EF2 20%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0.3;
 }

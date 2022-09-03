@@ -12,7 +12,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Mark P. Olivo- Developer, Writer, Creator and Team Player",
+    title: `Mark P. Olivo- Creator, Designer, Developer & Team Player`,
     description: `Strive to build things that makes a difference in the world! Get in touch with me to know more.`,
     image: "/me.png",
     type: "website",

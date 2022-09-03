@@ -23,7 +23,7 @@ export default function AboutMe() {
           >
          
           <RoughNotation type="highlight" className="bg-red-500 text-gray-50" >
-            {userData.about.title} Think It Design It Build It!
+            {userData.about.title} Think It Create It Design It Build It!
             </RoughNotation>
           
           </p>
